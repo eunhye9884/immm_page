@@ -1306,14 +1306,14 @@ export default function Home() {
                 <div className="plan-price">₩19,000 <span>/ 월</span></div>
                 <p className="plan-desc">브랜드를 본격적으로 런칭하고 멀티 유통망을 관리하시는 가방 디자이너용 플랜</p>
                 <hr />
-                <ul class="plan-features">
+                <ul className="plan-features">
                   <li>무제한 이미지 내보내기</li>
                   <li><strong>ZIP 파일 일괄 압축 패키지 내보내기</strong></li>
                   <li><strong>29CM 스마트 8,000px 자동 분할</strong></li>
                   <li>브랜드 자산 프리셋 무제한 저장</li>
                   <li>워터마크 없는 깨끗한 출력물</li>
                 </ul>
-                <a href="#playground" class="btn btn-primary btn-block">무제한 이용하기</a>
+                <a href="#playground" className="btn btn-primary btn-block">무제한 이용하기</a>
               </div>
 
               <div className="pricing-card">
@@ -1348,7 +1348,7 @@ export default function Home() {
                 <p className="faq-answer">화질을 최대한 보존할 수 있도록 Canvas 스무딩 옵션을 적용하고 최적의 크기로 가공합니다. 업로드하신 원본 해상도가 높을수록 더 깨끗한 결과물을 얻을 수 있습니다.</p>
               </div>
               <div className="faq-item">
-                <h4 class="faq-question">Q. 29CM의 세로 8,000px 이상 분할 기능은 정확히 어떻게 조절되나요?</h4>
+                <h4 className="faq-question">Q. 29CM의 세로 8,000px 이상 분할 기능은 정확히 어떻게 조절되나요?</h4>
                 <p className="faq-answer">29CM의 경우, 단일 이미지의 세로가 8,000px가 넘어가면 8,000px 단위의 정밀 슬라이싱 작업을 자동으로 수행합니다. 마지막 슬라이스는 남은 잔여 세로 길이만큼 유연하게 처리되므로, 겹치는 경계선 없이 자연스러운 연결감을 선사합니다.</p>
               </div>
               <div className="faq-item">
